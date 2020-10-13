@@ -686,7 +686,7 @@ a:focus {
 
 .feature-nav .nav-link:hover {
   background: none;
-  color: #40babd;
+  color: #64868E;
 }
 
 .feature-nav .nav-link .svg-inline--fa {
@@ -698,7 +698,7 @@ a:focus {
 }
 
 .feature-nav .nav-link.active {
-  color: #40babd;
+  color: #64868E;
   background: none;
   font-weight: bold;
 }
@@ -968,6 +968,16 @@ a:focus {
   margin-bottom: 60px;
 }
 
+#email_in {
+  max-width: 460px;
+  background-color: #fff;opacity: 0.3;;
+  border-color: #354d52;
+}
+
+#email_in:focus {
+  box-shadow: 0 0 10px #354d52;
+}
+
 @media (max-width: 767.98px) {
   .navbar-collapse {
     border-top: none;
@@ -982,7 +992,7 @@ a:focus {
     z-index: 40;
   }
   .header.header-scrolled .main-nav .nav .nav-link.active {
-    color: #40babd;
+    color: #8C9C9F;
     border: none;
   }
   .main-nav .navbar-collapse .nav-item {
