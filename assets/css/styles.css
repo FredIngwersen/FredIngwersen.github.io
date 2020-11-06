@@ -5,22 +5,20 @@
  * Twitter: @3rdwave_themes
  * Website: https://themes.3rdwavemedia.com/
 
-
-
-:root {
-  --white: #ffffff;
-  --primary: #4D85FF;
-  --dark: #1947AB;
-  --light: #727374;
-  --text: #494d55;
-}
-*/
-
 :root {
   --white: #ffffff;
   --primary: #64868E;
   --dark: #354d52;
   --light: #8C9C9F;
+  --text: #494d55;
+}
+
+*/
+:root {
+  --white: #ffffff;
+  --primary: #4D85FF;
+  --dark: #1947AB;
+  --light: #727374;
   --text: #494d55;
 }
 
@@ -97,8 +95,8 @@ a:focus {
 }
 
 .btn-inverse {
-  background: rgba(0, 0, 0, 0.4);
-  border: 1px solid transparent;
+  background: var(--dark);
+  border: 1px solid var(--dark);
   color: var(--white);
 }
 
@@ -353,7 +351,7 @@ a:focus {
 
 /* ====== Footer ====== */
 .footer {
-  background: #26282c;
+  background: var(--dark);
   color: rgba(255, 255, 255, 0.6);
   padding: 15px 0;
 }
@@ -429,6 +427,7 @@ a:focus {
 }
 
 .hero-carousel .carousel-inner .heading {
+  color: var(--primary);
   font-size: 30px;
   line-height: 1.4;
   font-weight: bold;
@@ -454,6 +453,7 @@ a:focus {
   margin-bottom: 15px;
   font-size: 36px;
   font-weight: 300;
+  color: var(--dark);
 }
 
 .about-section .intro {
@@ -560,7 +560,7 @@ a:focus {
 
 /* ======= Testimonials Section ======= */
 .testimonials-section {
-  background: var(--light) url("../images/map.png") no-repeat center center;
+  background: var(--primary) url("../images/map.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
